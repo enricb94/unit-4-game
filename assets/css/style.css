@@ -1,21 +1,28 @@
-body{margin-left:2%;}
+body
+{
+    background-image: url("../images/background.png");
+    margin-left:2%;
+    color:white;
+}
 
 h1
 {
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Righteous', cursive;
+    font-size:78px;
+    color:rgb(255, 204, 0);
 }
 
 .character,.enemy,.defender{
     padding:0px;
     margin-left:5px;
-    width:310px;
+    width:260px;
     margin:0px;
     display:inline-block;
     
 }
 
-img{width:300px; height:180px;}
+img{width:250px; height:150px;}
 
 #darth,#luke,#rey,#obi{text-align:center;font-weight: bold;}
 
@@ -23,3 +30,29 @@ img{width:300px; height:180px;}
 .lifePoints{display:inline;}
 .characterChosen{border: rgb(11, 255, 11) 5px solid}
 .enemyChosen{border: rgb(255, 11, 11) 5px solid}
+#comments1
+{
+    font-size:25px;
+    font-weight:600;
+    position:fixed;
+    bottom:15%;
+    left:32%;
+}
+#comments2
+{
+    font-size:25px;
+    font-weight:600;
+    position:fixed;
+    bottom:10%;
+    left:32%;  
+}
+
+#comments3
+{
+    font-size:150px;
+    font-family: 'Righteous', cursive;
+    color:rgb(255, 204, 0);
+    position:fixed;
+    bottom:40%;
+    left:32%;  
+}
