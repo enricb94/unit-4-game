@@ -6,9 +6,10 @@ h1
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#CharacterDarth,#CharacterLuke,#CharacterRey,#CharacterObi {
-    padding:5px 5px 0px 10px;
-    width:320px;
+.character,.enemy,.defender{
+    padding:0px;
+    margin-left:5px;
+    width:310px;
     margin:0px;
     display:inline-block;
     
@@ -20,3 +21,5 @@ img{width:300px; height:180px;}
 
 .bottom{text-align: center;}
 .lifePoints{display:inline;}
+.characterChosen{border: rgb(11, 255, 11) 5px solid}
+.enemyChosen{border: rgb(255, 11, 11) 5px solid}
